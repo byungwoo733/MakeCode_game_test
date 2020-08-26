@@ -1,0 +1,35 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="%KAiuI6{9F0cxY$$Ox|K">mySprite</variable><variable type="KIND_SpriteKind" id="Xl~XI7@;[Bf4an@,CNBZ">Player</variable><variable type="KIND_SpriteKind" id="@_qS7K$FIq/A1_lc)SNF">Projectile</variable><variable type="KIND_SpriteKind" id="U22.,k@vE;kXfj!`{ij-">Food</variable><variable type="KIND_SpriteKind" id="{9.Q}@wWUH,4!]:`iBjC">Enemy</variable></variables><block type="pxt-on-start" id="*p9^yJun0]qpe4yt(EMd" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="Fh5?E6lRq5GjsglL3qlJ"><value name="color"><shadow type="colorindexpicker" id="9Mm0rS2muKjrLx@0|ATH"><field name="index">11</field></shadow></value><next><block type="variables_set" id="+94f:B,j92P?+*F(jLV5"><field name="VAR" id="%KAiuI6{9F0cxY$$Ox|K">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="@qPq{gpm5QDd}CZIOpxv"><value name="img"><shadow type="screen_image_picker" id="z*D(H0@hWJ#D9Sy.q3FD"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . f f f f f f f . . . . . 
+. . . f 7 7 7 7 7 7 7 f . . . . 
+. . f 7 7 7 7 7 7 7 7 7 f . . . 
+. . f 7 7 7 7 7 7 7 7 7 f . . . 
+. . f 7 7 f 7 7 7 f 7 7 f . . . 
+. . f 7 7 7 7 7 7 7 7 7 f . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="pYjm`HtZBZc=|QC2nUel"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="tilemap_editor" id="Dt4~FJ#XksHP6BI:[1+!"><field name="tilemap">tiles.createTilemap(hex`1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001010101010100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000`, img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . 2 2 2 2 2 2 . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . 2 2 2 2 2 . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+2 2 2 2 . . . . 2 2 2 2 2 . . . 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`, [myTiles.transparency16,myTiles.tile1], TileScale.Sixteen)</field><next><block type="game_control_sprite" id=",3F;na(mif4`=v%TNUNb"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="+0Yd!Q|xY},)@f.t;kzb"><field name="VAR" id="%KAiuI6{9F0cxY$$Ox|K">mySprite</field></block></value></block></next></block></next></block></next></block></statement></block></xml>
